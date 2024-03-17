@@ -1,0 +1,2 @@
+yt-dlp.exe --batch-file "stuff.txt" --ffmpeg-location bin -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best" --sub-langs en.*,ja.*,lt.*,eng.*,jpn.*,lie.*,ltu.* --embed-subs --sub-format best --embed-thumbnail --convert-thumbnails jpg --add-metadata --download-archive archive.txt -P home:DEF
+pause
